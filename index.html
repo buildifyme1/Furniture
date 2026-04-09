@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض أثاث</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="logo">Furniture</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#">الرئيسية</a>
+    <a href="#">المنتجات</a>
+    <a href="#">من نحن</a>
+    <a href="#">تواصل</a>
+  </nav>
+
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>أثاث عصري يناسب ذوقك</h1>
+    <p>اكتشف أفضل تصميمات الأثاث بجودة عالية وأسعار مميزة</p>
+    <button>تصفح الآن</button>
+  </div>
+</section>
+
+<!-- من نحن -->
+<section class="about-us">
+  <div class="about-container">
+
+    <div class="about-text">
+      <h2>من نحن</h2>
+      <p>
+        نحن معرض متخصص في تقديم أجود أنواع الأثاث العصري والكلاسيكي.  
+        نسعى لتقديم منتجات عالية الجودة بأسعار مناسبة مع خدمة توصيل سريعة وضمان على جميع منتجاتنا.
+      </p>
+      <p>
+        رؤيتنا هي خلق تجربة تسوق مريحة وممتعة لكل عملائنا، مع تصميمات فريدة تناسب جميع الأذواق والمساحات.
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="logo-removebg-preview.png" alt="معرض أثاث عصري">
+    </div>
+
+  </div>
+</section>
+
+<!-- categories -->
+<section class="categories">
+  <h2>الأقسام</h2>
+
+  <div class="categories-container">
+
+    <a href="sofa.html" class="category">
+      <img src="dining.jpeg">
+      <h3>صالونات & انتريه</h3>
+    </a>
+
+    <a href="bedroom.html" class="category">
+      <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0">
+      <h3>غرف نوم</h3>
+    </a>
+
+    <a href="kids.html" class="category">
+      <img src="kids.jpeg">
+      <h3>غرف أطفال</h3>
+    </a>
+
+    <a href="dining.html" class="category">
+      <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200">
+      <h3>سفرة</h3>
+    </a>
+
+    <a href="corner.html" class="category">
+      <img src="corner.jpeg">
+      <h3>ركنة</h3>
+    </a>
+
+  </div>
+</section>
+
+<!-- products -->
+<section class="products">
+  <h2>منتجاتنا</h2>
+
+  <div class="products-container">
+
+    <!-- منتج 1 -->
+    <div class="product-card">
+      <img src="product1.jpeg" alt="كنبة مودرن">
+      <h3>كنبة مودرن</h3>
+      <p>راحة وأناقة بتصميم عصري</p>
+      <a href="#" class="btn whatsapp-btn" data-name="كنبة مودرن" data-img="https://yourwebsite.com/images/product1.jpeg">استفسار</a>
+    </div>
+
+    <!-- منتج 2 -->
+    <div class="product-card">
+      <img src="product2.jpeg" alt="سرير فاخر">
+      <h3>سرير فاخر</h3>
+      <p>خامات عالية الجودة لتجربة نوم مميزة</p>
+      <a href="#" class="btn whatsapp-btn" data-name="سرير فاخر" data-img="https://yourwebsite.com/images/product2.jpeg">استفسار</a>
+    </div>
+
+    <!-- منتج 3 -->
+    <div class="product-card">
+      <img src="p.jpeg" alt="ركنة">
+      <h3>ركنة</h3>
+      <p>تصميم L-shape أنيق ومريح</p>
+      <a href="#" class="btn whatsapp-btn" data-name="ركنة" data-img="https://yourwebsite.com/images/p.jpeg">استفسار</a>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="testimonials">
+  <h2>آراء عملائنا</h2>
+
+  <div class="testimonials-container">
+
+    <div class="testimonial-card">
+      <p>"اشتريت كنبة مودرن من المعرض، الجودة ممتازة والخدمة سريعة جدًا!"</p>
+      <h4>- أحمد علي</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"غرفة النوم رائعة، التصميم أنيق والمقاسات مناسبة جدًا لمنزلي."</p>
+      <h4>- سارة محمد</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"خدمة التوصيل ممتازة، والركنة كانت تمام كما توقعت."</p>
+      <h4>- خالد حسن</h4>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact">
+  <h2>تواصل معنا</h2>
+
+  <div class="contact-container">
+
+    <!-- النموذج -->
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="اسمك" required>
+      <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+      <textarea name="message" placeholder="اكتب رسالتك هنا" required></textarea>
+      <button type="submit" class="btn">إرسال الرسالة</button>
+    </form>
+
+    <!-- قسم واتساب -->
+    <div class="contact-whatsapp">
+      <h3>أو تواصل عبر واتساب مباشرة</h3>
+      <a href="https://wa.me/201234567890" target="_blank" class="btn whatsapp-btn">تواصل عبر واتساب</a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- عن المعرض -->
+    <div class="footer-about">
+      <h3>معرض الأثاث</h3>
+      <p>نقدم أجود أنواع الأثاث العصري والكلاسيكي مع خدمة توصيل سريعة وضمان على جميع المنتجات.</p>
+    </div>
+
+    <!-- روابط سريعة -->
+    <div class="footer-links">
+      <h4>روابط سريعة</h4>
+      <ul>
+        <li><a href="#products">المنتجات</a></li>
+        <li><a href="#gallery">معرض الصور</a></li>
+        <li><a href="#testimonials">آراء العملاء</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+
+    <!-- تواصل اجتماعي -->
+    <div class="footer-social">
+      <h4>تواصل معنا</h4>
+      <div class="social-icons">
+        <a href="https://wa.me/201234567890" target="_blank">واتساب</a>
+        <a href="https://instagram.com/yourpage" target="_blank">إنستجرام</a>
+        <a href="https://facebook.com/yourpage" target="_blank">فيسبوك</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 معرض الأثاث. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+</body>
+</html>
